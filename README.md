@@ -30,6 +30,11 @@ A production-ready, modular cryptocurrency trading framework built in Python. Th
 ### 4. `backtest_result.csv` (Sample Trade Logs)
 *   **Purpose:** Real simulation logs demonstrating how the system auto-executes Stop-Loss (SL) and Take-Profit (TP) conditions.
 
+## Usage
+*  Configure your Binance Testnet/API keys securely (do not hardcode them in production).
+*  Run BacktestEngine.py to test and generate historical reports.
+*  Run final_pro.py to start the live trading loop.
+
 ---
 
 ## ⚙️ Getting Started
@@ -38,3 +43,4 @@ A production-ready, modular cryptocurrency trading framework built in Python. Th
 Install the required dependencies using pip:
 ```bash
 pip install pandas pandas-ta ccxt numpy
+
